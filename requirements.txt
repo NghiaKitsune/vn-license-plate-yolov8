@@ -1,0 +1,20 @@
+# Core dependencies cho nhan dien bien so xe VN
+# Python >= 3.10
+
+# YOLO detection
+ultralytics>=8.4.39
+
+# OCR
+paddlepaddle>=3.0.0
+paddleocr>=3.0.0
+
+# Computer vision / numeric
+opencv-python>=4.10.0
+numpy>=1.26.0
+
+# Dataset download (optional, cho Colab)
+roboflow>=1.1.0
+
+# Optional: PyTorch (tu dong cai khi pip install ultralytics)
+# torch>=2.0.0
+# torchvision>=0.15.0

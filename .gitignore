@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Training artifacts — chi commit best.pt cua moi run
+runs/**/weights/epoch*.pt
+runs/**/weights/last.pt
+runs/**/*.cache
+*.pt.bak
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# Dataset (qua lon, download tu Roboflow)
+dataset/train/
+dataset/valid/
+dataset/test/
+dataset/*.cache
+
+# Logs
+*.log
+train_log.txt
+train_v*_stdout.log
+train_v*_stderr.log
+
+# Runtime output
+log_bien_so.csv
+snapshot_*.jpg
+ket_qua.jpg
+debug_crop_*.jpg
+*_result.jpg
+*_test.jpg
+
+# Video demo (neu lon)
+*.mp4
+!demo_sample.mp4
+
+# Third-party skills library
+everything-claude-code-main/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model cache
+.paddlex/

@@ -1,0 +1,13 @@
+train: C:\Users\ACER\Documents\Training AI\dataset\train\images
+val: C:\Users\ACER\Documents\Training AI\dataset\valid\images
+test: C:\Users\ACER\Documents\Training AI\dataset\test\images
+
+nc: 1
+names: ['license-plate']
+
+roboflow:
+  workspace: vietnam-license
+  project: vietnam-license-plate-hjswj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vietnam-license/vietnam-license-plate-hjswj/dataset/2
