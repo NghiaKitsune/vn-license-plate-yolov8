@@ -105,7 +105,7 @@ Tôi chuyển sang **PaddleOCR v5** và thêm bộ lọc charset Việt Nam:
 VN_CHARSET = set("0123456789 ABCDEFGHKLMNPSTUVXYZ")
 ```
 
-### Bước 3 — Preprocessing trước khi OCR
+### Bước 3 - Preprocessing trước khi OCR
 
 OCR chỉ tốt khi đầu vào rõ. Tôi thiết kế `PlatePreprocessor` với chuỗi 4 phép biến đổi:
 
